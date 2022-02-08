@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    padding: 0 4rem;
+}
+.cls{
+    width: 90%;
+    margin: auto;
+    padding: 2rem 0;
+}
+/* HEADER */
+#header{
+    background-color: rgb(33, 37, 41);
+}
+#header .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header .header .start{
+    width: 20%;
+}
+#header .header .start a{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+#header .header .toggle-icon{
+    display: none;
+    color: rgba(255, 255, 255, 0.55);
+    border-color: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    border: 1px solid #504c4c;
+    border-radius: 5px;
+}
+#header .header .navs{
+    width: 80%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#header .container .navs .nav{
+    margin: 0 10px;
+}
+#header .container .navs .nav a{
+    color: rgba(255, 255, 255, 0.55);
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+/* INTRO */
+#intro{
+    background-color: rgb(33, 37, 41);
+    padding: 4rem 0;
+}
+#intro .intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#intro .intro .left{
+    width: 50%;
+}
+#intro .intro .left h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+#intro .intro .left p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 10px 0 50px;
+    line-height: 1.8;
+}
+#intro .intro .left a{
+    color: white;
+    padding: 12px 24px;
+    margin: 0px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+#intro .intro .left .get{
+    border: 2px solid #0d6efd;
+    background-color: #0d6efd;
+}
+#intro .intro .left .more{
+    border: 1px solid white;
+    background-color: transparent;
+}
+#intro .intro .right{
+    width: 50%;
+}
+#intro .intro .right .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background-color: rgb(40, 45, 49);
+}
+#intro .intro .right .image img{
+    width: 100%;
+}
+
+/* WAY */
+#way{
+
+}
+#way .way{
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem 0;
+}
+#way .way .left{
+    width: 35%;
+}
+#way .way .left h2{
+    font-size: 32px;
+}
+#way .way .right{
+    width: 65%;
+}
+#way .way .right .cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#way .way .right .cards .card{
+    width: 48%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#way .way .right .cards .card i{
+    color: rgb(13, 110, 253);
+    font-size: 40px;
+}
+#way .way .right .cards .card h3{
+    font-size: 20px;
+    color: #212529;
+    font-weight: 500;
+    margin: 15px 0;
+}
+#way .way .right .cards .card p{
+    font-size: 15px;
+    color: #212529;
+    font-size: 100;
+    margin: 10px 0;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+/* WORK */
+#work{
+    background-color: #f8f9fa;
+}
+#work .work{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 5rem 0;
+}
+#work .work .text{
+
+}
+#work .work .text p{
+    font-size: 24px;
+    font-style: italic;
+    line-height: 1.8;
+}
+#work .work .text h4{
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+#work .work .text h4 img{
+    border-radius: 50%;
+    margin: 0 10px;
+}
+#work .work .text h4 span{
+    color: #0d6efd;
+    margin: 0 10px;
+}
+/* BLOG */
+#blog{
+
+}
+#blog .blog{
+
+}
+#blog .blog .header{
+    text-align: center;
+}
+#blog .blog .header h3{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+#blog .blog .header p{
+    color: #6c757d;
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
+#blog .blog .cards{
+    display: flex;
+    justify-content: space-between;
+}
+#blog .blog .cards .card{
+    width: 31%;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    height: 500px;
+    position: relative;
+}
+#blog .blog .cards .card .image{
+
+}
+#blog .blog .cards .card .image img{
+    width: 100%;
+}
+#blog .blog .cards .card .text{
+    padding: 20px;
+}
+#blog .blog .cards .card .text .new{
+    background-color: #0d6efd;
+    padding: 2px 13px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+}
+#blog .blog .cards .card .text h5{
+    font-size: 20px;
+    margin: 15px 0;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+#blog .blog .cards .card .text p{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    padding: 5px;
+    margin: 10px 0;
+}
+#blog .blog .cards .card .text .footer{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+#blog .blog .cards .card .text .footer img{
+    border-radius: 50%;
+    margin: 0 10px;
+}
+#blog .blog .cards .card .text .footer .footer-text{
+
+}
+#blog .blog .cards .card .text .footer .footer-text h6{
+    font-size: 14px;
+}
+#blog .blog .cards .card .text .footer .footer-text span{
+    font-size: 14px;
+}
+/* SIGN */
+#sign{
+    padding: 3rem 0;
+}
+#sign .sign{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d6efd;
+    color: white;
+    padding: 40px;
+    border-radius: 5px;
+}
+#sign .sign .left{
+    width: 60%;
+}
+#sign .sign .left h3{
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+#sign .sign .left p{
+    font-size: 14px;
+    opacity: 0.6;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+#sign .sign .right{
+    width: 40%;
+}
+#sign .sign .right .input{
+    text-align: right;
+}
+#sign .sign .right .input input{
+    padding: 10px;
+    width: 65%;
+}
+#sign .sign .right .input button{
+    background-color: #0d6efd;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    border-left: 0;
+    width: 25%;
+}
+#sign .sign .right span{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+/* FOOTER */
+#footer{
+    background-color: #212529;
+}
+#footer .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+#footer .footer .left{
+    width: 50%;
+}
+#footer .footer .right{
+    width: 50%;
+}
+#footer .footer .right ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+#footer .footer .right ul li{
+    margin: 0 10px;
+}
+#footer .footer .right ul li a{
+    color: white;
+}
+
+@media (max-width: 576px){
+    /* HEADER */
+    #header .header .container{
+        padding: 0 1rem;
+    }
+    /* INTRO */
+    #intro .intro{
+        width: 100%;
+    }
+    #intro .intro .left{
+        width: 100%;
+        text-align: center;
+    }
+    #intro .intro .left h1 {
+        font-size: 30px;
+    }
+    #intro .intro .left a{
+        display: block;
+        margin: 10px 0;
+    }
+    #intro .intro .left p{
+        font-size: 15px;
+        margin: 10px 0px 20px;
+    }
+    /* WAY */
+    #way .way .left h2 {
+        font-size: 27px;
+    }
+    /* WORK */
+    /* BLOG */
+    /* SIGN */
+    /* FOOTER */
+}
+@media(max-width: 768px){
+    /* HEADER */
+    /* INTRO */
+    /* WAY */
+    #way .way .right .cards .card {
+        width: 100%;
+    }
+    /* WORK */
+    /* BLOG */
+    /* SIGN */
+    #sign .sign{
+        text-align: center;
+        display: block;
+    }
+    #sign .sign .left{
+        width: 100%;
+        padding: 0 40px;
+    }
+    #sign .sign .right{
+        width: 90%;
+        margin: 10px auto;
+    }
+    #sign .sign .right .input{
+        text-align: center;
+    }
+    /* FOOTER */
+}
+@media (max-width: 1000px){
+   /* HEADER */
+    #header .header .start{
+        width: 60%;
+    }
+    #header .header .toggle-icon{
+        display: inline-block;
+    }
+    #header .header .navs{
+        display: none;
+    }
+    /* INTRO */
+    #intro .intro .left{
+        width: 80%;
+        text-align: center;
+    }
+    #intro .intro .right{
+        display: none;
+    }
+    /* WAY */
+    #way .way{
+        display: block;
+    }
+    #way .way .left{
+        width: 100%;
+    }
+    #way .way .right{
+        width: 100%;
+    }
+    /* WORK */
+    #work .work{
+        width: 90%;
+    }
+    /* BLOG */
+    #blog .blog .cards{
+        display: block;
+    }
+    #blog .blog .cards .card{
+        width: 80%;
+        margin: 50px auto;
+        height: 100%;
+    }
+    #blog .blog .cards .card .text{
+        height: 250px;
+    }
+    /* SIGN */
+    /* FOOTER */
+}
+@media (min-width: 768px) and (max-width: 1200px){
+  /* HEADER */
+    /* INTRO */
+    #intro .intro .left{
+        width: 70%;
+        text-align: center;
+    }
+    #intro .intro .right{
+        display: none;
+    }
+    /* WAY */
+    /* WORK */
+    #work .work{
+        width: 70%;
+    }
+    /* BLOG */
+    /* SIGN */
+    #sign .sign{
+        text-align: center;
+        display: block;
+    }
+    #sign .sign .left{
+        width: 100%;
+    }
+    #sign .sign .right{
+        width: 45%;
+        margin: 20px auto;
+    }
+    #sign .sign .right .input{
+        text-align: center;
+    }
+    /* FOOTER */
+}
+@media (min-width: 1200px) and  (max-width: 1400px) {
+    /* HEADER */
+    /* INTRO */
+    #intro .intro .left{
+        width: 55%;
+    }
+    #intro .intro .right{
+        width: 40%;
+    }
+    #intro .intro .right .image{
+        width: 400px;
+        height: 200px;
+    }
+    /* WAY */
+    /* WORK */
+    /* BLOG */
+    /* SIGN */
+    /* FOOTER */
+}
+@media (min-width: 1550px){
+    #blog .blog .cards .card{
+        height: 600px;
+    }
+}
